@@ -1,7 +1,7 @@
             
                                
-    @use './variables/variables' as v;
-    @use './utilidades/mixins' as m;
+    @use './variables/variables';
+    @use './utilidades/mixins' ;
     @use './global/global';
     @use './paginas/tienda';
     @use './paginas/contacto';
