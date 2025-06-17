@@ -1,0 +1,61 @@
+@use '../utilidades/mixins' as m;
+@use '../variables/variables' as v;
+
+
+/*reset básico */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Evita problemas con los cálculos de dimensiones */
+} 
+/*cuerpo del documento*/      
+body{
+   @include m.fondocolor;
+}
+
+/*enlaces*/
+a{
+    @include m.link;
+}
+
+a:hover{
+    color: v.$hoverlink;
+}
+
+/*Títulos*/
+h1{
+    @include m.titulosh1;
+}
+
+h2, h3 {
+    @include m.titulosh2h3;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*Logo*/
+.bannerlogo{
+    width: 180px;
+    height: auto;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+
+
+/*video*/
+video {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+   background-color: v.$colorfondo;
+} 
+
+

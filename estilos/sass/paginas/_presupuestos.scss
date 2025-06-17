@@ -1,0 +1,17 @@
+@use '../utilidades/mixins' as m;
+@use '../variables/variables' as v;
+@use '../media/media'; 
+
+
+/*formulario*/
+.presu{
+    @include m.formulario;
+}
+
+/*imagenes de los gatos*/
+
+
+
+.boton-enviar {
+    @include m.botones-compra-enviar;
+}

@@ -1,0 +1,46 @@
+
+@use '../variables/variables' as v;
+@use '../media/media'; 
+@import '../utilidades/mixins' ;
+
+
+/*productos individuales*/
+.productos {
+ @include contenedor-imagenes;
+}
+
+.producto{
+  @include imagenes-producto;
+}
+
+.producto:hover {
+  transform: scale(1.02);
+}
+
+.it {
+  border-radius: 8px;
+  border: 2px solid #e5e5e5;
+  margin-bottom: 1rem;
+}
+
+.precio {
+  font-weight: bold;
+  color: #7f5af0;
+  margin: 0.5rem 0;
+}
+
+.boton-compra {
+   @include botones-compra-enviar;
+}
+.boton-compra:hover{
+    background-color: #6244c5;
+}
+
+
+%contenedor-imagenes {
+ @include contenedor-imagenes;
+}
+
+%imagenes-producto {
+    @include imagenes-producto;
+}

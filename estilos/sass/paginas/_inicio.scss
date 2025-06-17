@@ -1,0 +1,31 @@
+@use '../utilidades/mixins' as m;
+@use '../variables/variables' as v;
+
+
+/* lista de navegacion en index*/
+.listainicio {
+    list-style: none;
+    gap: 1rem;
+    font-size:  1rem;
+}
+
+.listainicio .nav-link{
+    color: #333;
+    font-weight: bold;
+}
+
+.listainicio .nav-link:hover{
+    color: v.$hoverlink
+}
+
+/*video Carrusel*/
+.videocarrusel{
+    margin-top: 2rem;
+}
+
+.carruselinicio {
+    border: 3pc solid #7f5af0;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}   

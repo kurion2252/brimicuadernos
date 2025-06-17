@@ -1,0 +1,112 @@
+@use '../variables/variables' as v;
+@use '../media/media' as m;
+
+
+/*Fondos de las paginas*/
+@mixin fondocolor{
+    background-color: v.$colorfondo;
+    color: v.$letrascolor;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*Titulos y subtiturlos*/
+/*Titulos*/
+@mixin titulosh1 {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: v.$colorh1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*subtitulos*/
+@mixin titulosh2h3 {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-size: 2rem;
+    color: v.$colorh2h3;
+    margin-bottom: 1rem;
+}
+
+/*Links*/
+@mixin link {
+    text-decoration: none;
+    font-weight: bold;
+    color: v.$linkcolor;
+}
+
+
+/*Display de las imagenes tienda y nuestros trabajos*/
+@mixin imggrilla {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Botones*/
+@mixin botones-compra-enviar {
+    background-color: #7f5af0;
+    color: #0e0101;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/*Formularios*/
+@mixin formulario {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+}
+
+/*imagenes productos*/
+/*muestra*/
+@mixin contenedor-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2remrem;
+
+    @include m.tablet {
+        grid-template-columns: 2, 1fr;
+    }
+
+    @include m.mobile {
+        grid-template-columns: 1fr;
+    }
+}
+
+@mixin imagenes-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #40a171;
+    box-shadow:  0 0 5px rgba(0, 0, 0,0.1);
+    
+    h3 {
+        min-height: 3em;
+        font-size: 1.2rem;
+    }
+    img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    p {font-size: 0.9rem;
+    }
+}

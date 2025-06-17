@@ -1,0 +1,36 @@
+@use '../utilidades/mixins' as m;
+@use '../variables/variables' as v;
+@use '../media/media'; 
+
+/*Contenedor de Mapa y formulario*/
+.contenedor-contacto{
+    padding: 2rem 1rem;
+}
+
+/*formulario contacto*/
+.formcontacto{
+    @include m.formulario;
+}
+
+
+/*mapa de ubicación*/
+.mapa{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+/*infomracion de contacto*/
+.datos-contacto {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+.datos-contacto a {
+    color: #7f5af0;
+    text-decoration: none;
+}
+.datos-contacto a:hover{
+    text-decoration: underline;
+}

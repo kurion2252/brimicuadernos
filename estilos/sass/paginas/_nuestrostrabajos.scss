@@ -1,0 +1,50 @@
+@use '../variables/variables' as v;
+@use '../media/media'; 
+@import '../utilidades/mixins';
+@import '../paginas/tienda';
+
+/*Titulo*/
+.titulosubpagina {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: #7f5af0;
+  text-align: center;
+}
+
+/*menu de navegacion*/
+.listaagendashechas {
+  list-style: none;
+  gap: 1rem;
+  font-size: 1rem;
+  padding-left: 0;
+}
+
+.listaagendashechas .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.listaagendashechas.nav-link:hover {
+  color: #7f5af0;
+}
+
+/*galeria de agendas*/
+.imagenesmuestra {
+  @extend %contenedor-imagenes;
+}
+
+/*contenedor de cada agenda*/
+.agendas {
+    @extend %imagenes-producto;
+}
+
+.iah:hover {
+  transform: scale(1.03);
+}
+
+/*descripcion imagenes*/
+.textoimagenes {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #555;
+}

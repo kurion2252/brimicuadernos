@@ -1,0 +1,31 @@
+
+
+
+/*Logo*/
+@media (max-width: 768px){
+    .navbar-brand img{
+        width: 32   px;
+    }
+    
+}
+
+/*Gif gato*/
+@media (max-width: 768px) {
+    .gato{
+        display: none;
+    }
+}
+
+/*Media productos tablet*/
+@mixin mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+/*MEdia productos celulares*/
+@mixin tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
