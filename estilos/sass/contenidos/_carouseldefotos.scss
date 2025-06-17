@@ -1,0 +1,10 @@
+@mixin carousel-contendor {
+    margin-top: 2rem;
+}
+
+@mixin carrusel {
+    border: 3pc solid #99a285;
+    border-radius: 10px;
+    max-width: 80%;
+    height: auto;
+}

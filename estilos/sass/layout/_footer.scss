@@ -1,0 +1,6 @@
+@use '../utilidades/mixins' as m;
+@use '../variables/variables' as v;
+
+footer {
+   background-color: v.$colorfondo;
+} 

@@ -1,0 +1,25 @@
+@mixin linknavbar {
+   color: #333;
+    font-weight: bold; 
+}
+
+/*Barra de navecion pagian inicio*/
+@mixin barranavegacion {
+    ist-style: none;
+    gap: 1rem;
+    font-size:  1rem;
+    background-color: #cbcda6;
+    border-radius: 10px;
+}
+
+/*Barra de navegacion sub pagionas*/
+@mixin barranavsubpaginas {
+  @include barranavegacion;
+  padding-left: 0;
+  
+
+}
+
+
+
+

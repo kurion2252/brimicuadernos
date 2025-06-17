@@ -6,6 +6,7 @@
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
+/*Color fondo Barra de Navegacion*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -31,15 +32,9 @@
 /*imagenes productos*/
 /*muestra*/
 /*reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Evita problemas con los cálculos de dimensiones */
-}
-
 /*cuerpo del documento*/
 body {
-  background-color: #96beaa;
+  background-color: #a0b17a;
   color: #333;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
@@ -72,7 +67,7 @@ h2, h3 {
   text-align: center;
   font-family: "Saira", sans-serif;
   font-size: 2rem;
-  color: #333;
+  color: #0b2c18;
   margin-bottom: 1rem;
 }
 
@@ -80,25 +75,10 @@ h3 {
   font-size: 1.5rem;
 }
 
-/*Logo*/
-.bannerlogo {
-  width: 180px;
-  height: auto;
-}
-
-.navbar-brand img {
-  width: 60px;
-  height: auto;
-}
-
 /*video*/
 video {
   width: 100%;
   height: auto;
-}
-
-footer {
-  background-color: #96beaa;
 }
 
 /*Color del fondo*/
@@ -108,6 +88,7 @@ footer {
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
+/*Color fondo Barra de Navegacion*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -204,6 +185,18 @@ footer {
   background-color: #6244c5;
 }
 
+.navbar {
+  background-color: #99a285;
+}
+
+.titulosubpagina {
+  text-align: center;
+  font-family: "Saira", sans-serif;
+  font-size: 2rem;
+  color: #0b2c18;
+  margin-bottom: 1rem;
+}
+
 /*Contenedor de Mapa y formulario*/
 .contenedor-contacto {
   padding: 2rem 1rem;
@@ -241,6 +234,8 @@ footer {
   text-decoration: underline;
 }
 
+/*Barra de navecion pagian inicio*/
+/*Barra de navegacion sub pagionas*/
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
@@ -248,6 +243,7 @@ footer {
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
+/*Color fondo Barra de Navegacion*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -279,6 +275,7 @@ footer {
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
+/*Color fondo Barra de Navegacion*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -300,6 +297,7 @@ footer {
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
+/*Color fondo Barra de Navegacion*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -447,9 +445,11 @@ footer {
 
 /*menu de navegacion*/
 .listaagendashechas {
-  list-style: none;
+  ist-style: none;
   gap: 1rem;
   font-size: 1rem;
+  background-color: #cbcda6;
+  border-radius: 10px;
   padding-left: 0;
 }
 
@@ -459,7 +459,7 @@ footer {
 }
 
 .listaagendashechas.nav-link:hover {
-  color: #7f5af0;
+  color: #a2f05a;
 }
 
 /*galeria de agendas*/
@@ -496,9 +496,11 @@ footer {
 
 /* lista de navegacion en index*/
 .listainicio {
-  list-style: none;
+  ist-style: none;
   gap: 1rem;
   font-size: 1rem;
+  background-color: #cbcda6;
+  border-radius: 10px;
 }
 
 .listainicio .nav-link {
@@ -515,10 +517,30 @@ footer {
   margin-top: 2rem;
 }
 
-.carruselinicio {
-  border: 3pc solid #7f5af0;
+.carrusel {
+  border: 3pc solid #99a285;
   border-radius: 10px;
-  max-width: 100%;
+  max-width: 80%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Evita problemas con los cálculos de dimensiones */
+}
+
+footer {
+  background-color: #a0b17a;
+}
+
+.bannerlogo {
+  width: 180px;
+  height: auto;
+}
+
+.navbar-brand img {
+  width: 60px;
   height: auto;
 }
 

@@ -1,7 +1,9 @@
 @use '../variables/variables' as v;
 @use '../media/media'; 
+@use '../layout/barranavegacion' as bn;
 @import '../utilidades/mixins';
 @import '../paginas/tienda';
+
 
 /*Titulo*/
 .titulosubpagina {
@@ -13,19 +15,15 @@
 
 /*menu de navegacion*/
 .listaagendashechas {
-  list-style: none;
-  gap: 1rem;
-  font-size: 1rem;
-  padding-left: 0;
+  @include bn.barranavsubpaginas;
 }
 
 .listaagendashechas .nav-link {
-  color: #333;
-  font-weight: bold;
+  @include bn.linknavbar;
 }
 
 .listaagendashechas.nav-link:hover {
-  color: #7f5af0;
+  color: v.$hoverlink;
 }
 
 /*galeria de agendas*/

@@ -2,6 +2,14 @@
 @use '../variables/variables' as v;
 @use '../media/media'; 
 
+.navbar {
+    background-color: v.$colorbarranavegacion;
+}
+
+.titulosubpagina {
+    @include m.titulosh2h3;
+}
+
 /*Contenedor de Mapa y formulario*/
 .contenedor-contacto{
     padding: 2rem 1rem;
@@ -34,3 +42,4 @@
 .datos-contacto a:hover{
     text-decoration: underline;
 }
+

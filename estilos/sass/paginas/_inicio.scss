@@ -1,17 +1,16 @@
 @use '../utilidades/mixins' as m;
 @use '../variables/variables' as v;
+@use '../contenidos/carouseldefotos' as cc;
+@use '../layout/barranavegacion' as bn;
 
 
 /* lista de navegacion en index*/
 .listainicio {
-    list-style: none;
-    gap: 1rem;
-    font-size:  1rem;
+    @include bn.barranavegacion; 
 }
 
 .listainicio .nav-link{
-    color: #333;
-    font-weight: bold;
+    @include bn.linknavbar;
 }
 
 .listainicio .nav-link:hover{
@@ -20,12 +19,9 @@
 
 /*video Carrusel*/
 .videocarrusel{
-    margin-top: 2rem;
+    @include cc.carousel-contendor;
 }
 
-.carruselinicio {
-    border: 3pc solid #7f5af0;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
+.carrusel {
+   @include cc.carrusel
 }   
