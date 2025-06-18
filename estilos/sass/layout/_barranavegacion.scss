@@ -3,16 +3,16 @@
     font-weight: bold; 
 }
 
-/*Barra de navecion pagian inicio*/
+/*Barra de navegación pagina inicio*/
 @mixin barranavegacion {
-    ist-style: none;
+    list-style: none;
     gap: 1rem;
     font-size:  1rem;
     background-color: #cbcda6;
     border-radius: 10px;
 }
 
-/*Barra de navegacion sub pagionas*/
+/*Barra de navegación sub paginas*/
 @mixin barranavsubpaginas {
   @include barranavegacion;
   padding-left: 0;

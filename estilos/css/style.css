@@ -2,11 +2,11 @@
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
-/*colores de los titurlos y subtitulos*/
+/*colores de los Titulos y subtitulos*/
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
-/*Color fondo Barra de Navegacion*/
+/*Color fondo Barra de Navegación*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -22,7 +22,7 @@
 /*Media productos tablet*/
 /*MEdia productos celulares*/
 /*Fondos de las paginas*/
-/*Titulos y subtiturlos*/
+/*Titulos y subtitulos*/
 /*Titulos*/
 /*subtitulos*/
 /*Links*/
@@ -84,11 +84,11 @@ video {
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
-/*colores de los titurlos y subtitulos*/
+/*colores de los Titulos y subtitulos*/
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
-/*Color fondo Barra de Navegacion*/
+/*Color fondo Barra de Navegación*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -104,7 +104,7 @@ video {
 /*Media productos tablet*/
 /*MEdia productos celulares*/
 /*Fondos de las paginas*/
-/*Titulos y subtiturlos*/
+/*Titulos y subtitulos*/
 /*Titulos*/
 /*subtitulos*/
 /*Links*/
@@ -117,7 +117,7 @@ video {
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2remrem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   .productos {
@@ -234,16 +234,16 @@ video {
   text-decoration: underline;
 }
 
-/*Barra de navecion pagian inicio*/
-/*Barra de navegacion sub pagionas*/
+/*Barra de navegación pagina inicio*/
+/*Barra de navegación sub paginas*/
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
-/*colores de los titurlos y subtitulos*/
+/*colores de los Titulos y subtitulos*/
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
-/*Color fondo Barra de Navegacion*/
+/*Color fondo Barra de Navegación*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -259,7 +259,7 @@ video {
 /*Media productos tablet*/
 /*MEdia productos celulares*/
 /*Fondos de las paginas*/
-/*Titulos y subtiturlos*/
+/*Titulos y subtitulos*/
 /*Titulos*/
 /*subtitulos*/
 /*Links*/
@@ -271,11 +271,11 @@ video {
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
-/*colores de los titurlos y subtitulos*/
+/*colores de los Titulos y subtitulos*/
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
-/*Color fondo Barra de Navegacion*/
+/*Color fondo Barra de Navegación*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -293,11 +293,11 @@ video {
 /*Color del fondo*/
 /*Letras*/
 /*colores de los link*/
-/*colores de los titurlos y subtitulos*/
+/*colores de los Titulos y subtitulos*/
 /*titulo h1*/
 /*subtitulos h2 y h3*/
 /*color del formulario*/
-/*Color fondo Barra de Navegacion*/
+/*Color fondo Barra de Navegación*/
 /*Logo*/
 @media (max-width: 768px) {
   .navbar-brand img {
@@ -313,7 +313,7 @@ video {
 /*Media productos tablet*/
 /*MEdia productos celulares*/
 /*Fondos de las paginas*/
-/*Titulos y subtiturlos*/
+/*Titulos y subtitulos*/
 /*Titulos*/
 /*subtitulos*/
 /*Links*/
@@ -326,7 +326,7 @@ video {
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2remrem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   .productos {
@@ -397,7 +397,7 @@ video {
 .imagenesmuestra {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 2remrem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   .imagenesmuestra {
@@ -443,9 +443,9 @@ video {
   text-align: center;
 }
 
-/*menu de navegacion*/
+/*menu de navegación*/
 .listaagendashechas {
-  ist-style: none;
+  list-style: none;
   gap: 1rem;
   font-size: 1rem;
   background-color: #cbcda6;
@@ -462,13 +462,13 @@ video {
   color: #a2f05a;
 }
 
-/*galeria de agendas*/
+/*galería de agendas*/
 /*contenedor de cada agenda*/
 .iah:hover {
   transform: scale(1.03);
 }
 
-/*descripcion imagenes*/
+/*descripción imagenes*/
 .textoimagenes {
   font-size: 1rem;
   margin-top: 0.5rem;
@@ -494,9 +494,9 @@ video {
   transition: background-color 0.3s ease;
 }
 
-/* lista de navegacion en index*/
+/* lista de navegación en index*/
 .listainicio {
-  ist-style: none;
+  list-style: none;
   gap: 1rem;
   font-size: 1rem;
   background-color: #cbcda6;

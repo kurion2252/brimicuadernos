@@ -4,7 +4,7 @@
 @use '../layout/barranavegacion' as bn;
 
 
-/* lista de navegacion en index*/
+/* lista de navegación en index*/
 .listainicio {
     @include bn.barranavegacion; 
 }

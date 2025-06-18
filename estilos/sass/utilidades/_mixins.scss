@@ -10,7 +10,7 @@
     font-size: 16px;
     line-height: 1.6;
 }
-/*Titulos y subtiturlos*/
+/*Titulos y subtitulos*/
 /*Titulos*/
 @mixin titulosh1 {
     text-align: center;
@@ -75,7 +75,7 @@
 @mixin contenedor-imagenes {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2remrem;
+    gap: 2rem;
 
     @include m.tablet {
         grid-template-columns: 2, 1fr;
