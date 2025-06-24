@@ -1,16 +1,15 @@
 @use '../variables/variables' as v;
-@use '../media/media'; 
+@use '../media/media'as media; 
 @use '../layout/barranavegacion' as bn;
-@import '../utilidades/mixins';
-@import '../paginas/tienda';
+@use '../utilidades/mixins' as m;
+@use '../paginas/tienda' as T;
 
 
 /*Titulo*/
 .titulosubpagina {
-  font-size: 2rem;
+  @include m.titulosh2h3;
   margin-top: 1.5rem;
-  color: #7f5af0;
-  text-align: center;
+  
 }
 
 /*menu de navegación*/
@@ -28,12 +27,12 @@
 
 /*galería de agendas*/
 .imagenesmuestra {
-  @extend %contenedor-imagenes;
+  @include m.contenedor-imagenes;
 }
 
 /*contenedor de cada agenda*/
 .agendas {
-    @extend %imagenes-producto;
+    @include m.imagenes-producto;
 }
 
 .iah:hover {

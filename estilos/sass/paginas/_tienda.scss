@@ -1,16 +1,16 @@
 
 @use '../variables/variables' as v;
 @use '../media/media'; 
-@import '../utilidades/mixins' ;
+@use '../utilidades/mixins' as m;
 
 
 /*productos individuales*/
 .productos {
- @include contenedor-imagenes;
+ @include m.contenedor-imagenes;
 }
 
 .producto{
-  @include imagenes-producto;
+  @include m.imagenes-producto;
 }
 
 .producto:hover {
@@ -30,7 +30,7 @@
 }
 
 .boton-compra {
-   @include botones-compra-enviar;
+   @include m.botones-compra-enviar;
 }
 .boton-compra:hover{
     background-color: #6244c5;
@@ -38,9 +38,9 @@
 
 
 %contenedor-imagenes {
- @include contenedor-imagenes;
+ @include m.contenedor-imagenes;
 }
 
 %imagenes-producto {
-    @include imagenes-producto;
+    @include m.imagenes-producto;
 }

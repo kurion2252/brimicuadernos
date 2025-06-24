@@ -1,3 +1,4 @@
 user-agent: *
-Allow: /
-sitemap: https://proyectobrimicuadernos.netlify.ap/sitemap.xml
+Allow: / 
+sitemap: brimicuadernos.netlify.app/sitemap.xml
+ 
